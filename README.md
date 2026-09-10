@@ -27,6 +27,18 @@ You'll be asked:
 Enter your moves in standard algebraic notation (e.g. `Nf3`, `e4`) or UCI
 notation (e.g. `g1f3`, `e2e4`).
 
+## Play with the mouse (GUI version)
+
+There's also a graphical version, `chess_gui.py`, built with `pygame`.
+Click a piece, then click the square you want to move it to.
+
+```
+python chess_gui.py
+```
+
+Same setup prompts as the terminal version (color, search depth), then a
+window opens with the board.
+
 ## How it works
 
 - **Evaluation**: counts material (pawn = 100, knight/bishop = ~320-330,
